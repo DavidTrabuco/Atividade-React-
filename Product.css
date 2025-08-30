@@ -1,0 +1,29 @@
+.product-card {
+  background-color: #1a1818;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 300px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s;
+
+
+}
+.remove-button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s;
+}
